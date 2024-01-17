@@ -1,0 +1,26 @@
+* { border: 1px solid green; } /* 1. 범용 선택자 => *는 모든 선택자 => 문서에 있는 모든 요소*/ 
+h2 {color: blue; background-color: yellow;} /* 2. 태그 선택자 => h2,p, h3 => 태그 이름 */
+#descript {background-color: pink;} /* 3. 아이디 선택자 => #아이디 => 개별적 속성(태그 아이디 속성 의미) */
+.bold { font-weight : bold; } /* 4. 클래스 선택자 => .클래스 => 그룸(class)를 묶어서 속성 적용(태그 클래스) */
+#second>li { color: red; }  /* 5. 자식 선택자 => ul>li => ul 밑에 있는 직계 자식 요소 
+                                            꺽새 표시는 자식선택자(직결되는 바로 하위목록)*/
+#first li { color: blue; }  /* 6. 자손 선택자 => 직계 + 자손 모든 요소
+                                                    공백은 자손선택자 (하위 모든 항목들)*/
+.red { background-color: red;}
+.orange { background-color: orange;}
+.yellow { background-color: yellow;}
+.green { background-color: green;}
+.blue { background-color: blue;}
+.blueblack {background-color: rgb(14, 0, 75);}
+.purple { background-color: purple;}
+
+.a { background-color: #CA848A; }
+.b { background-color : #FFBE98; }
+.c { background-color : #964F4C; }
+.d { background-color : #A78C7B; }
+.e { background-color : #D8C88D; }
+
+.K {background-color : pink;}
+.L {background-color : rgba(151, 253, 214, 0.815)}
+.M {background-color : rgb(118, 80, 255)}
+.N {background-color : rgb(184, 255, 136);}
